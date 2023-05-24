@@ -1,0 +1,29 @@
+section {
+    background-color: rgb(55, 55, 55);
+    display: grid;
+    grid-template-columns: repeat(12 , 1fr);
+    grid-template-rows: repeat(3)
+    
+}
+.txt1 {
+    color:aliceblue;
+    grid-column: 1/5;
+    grid-row: 1/2;
+}
+.img1 {
+    grid-column: 5/13;
+    grid-row: 1/2;
+}
+.txt2 {
+    color:aliceblue;
+    grid-column: 5/9;
+    grid-row: 2/3;
+}
+.txt3 {
+    color: aliceblue;
+    grid-column: 9/13;
+    grid-row: 3/4;
+}
+.img1>img {
+    width: 50px;
+}
